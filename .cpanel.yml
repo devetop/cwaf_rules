@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/tamanan/public_html
+        - cp categories.conf $DEPLOYPATH
